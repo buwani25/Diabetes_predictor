@@ -81,8 +81,7 @@ pip install -r requirements.txt
 2. **Configure your `.env` file:**
    ```env
    # MongoDB Configuration
-   MONGODB_URL=mongodb+srv://username:password@cluster.mongodb.net/diabetes_db?retryWrites=true&w=majority
-   
+  
    # JWT Configuration
    SECRET_KEY=your-super-secret-jwt-key-here
    ALGORITHM=HS256
